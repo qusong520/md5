@@ -1,3 +1,4 @@
+//20200728
 package main
 
 import "io"
@@ -5,6 +6,7 @@ import "os"
 import "fmt"
 import "crypto/md5"
 import "crypto/sha1"
+
 
 func main() {
     if (len(os.Args) < 3) {
